@@ -1,0 +1,132 @@
+/**headers**/
+h5{
+	font-family:serif;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+}
+
+nav{
+	display:block;
+}
+
+/** The heat map itself **/
+#heatmap{
+	display:inline;
+}
+#heatmap svg{
+	border:1px solid black;
+	background:black;
+	display:inline;
+}
+table.heatmap{
+	position:relative;
+}
+table.heatmap  tr {
+	vertical-align:top;
+}
+#words{
+	width:300px;
+}
+/** The list of terms **/
+#words-list{
+	padding-left:10px;
+	width:150px;
+}
+#words-list li{
+	margin:10px;
+}
+.highlight{
+	padding:2px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+/**Information popups**/
+#info-popup{
+	display:none;
+}
+div.content{
+	max-height:70px;
+	overflow:auto;
+}
+div.content p{
+	margin:0px;
+}
+div.content img.viewbutton{
+	position:relative;
+	top:5px;
+}
+#sentence-popup{
+	display:none;
+	z-index:5000;
+}
+#sentences{
+	overflow:auto;
+	max-width:300px;
+	max-height:300px;
+}
+img.button{
+	width:20px;
+	height:20px;
+}
+img.close{
+	float:right;
+}
+/**The navigation bar**/
+form.search h2{
+	display:inline;
+	float:left;
+	padding-right:10px;
+	font-family:helvetica, arial, sans-serif;
+}
+form.search{
+	text-align:left;
+	float:none;
+	display:inline;
+	padding-left:10px;
+}
+fieldset{
+	margin-bottom:0px;
+}
+#concordance table tr{
+	background:#fff;
+}
+#concordance table tr td{
+	padding: 2px;
+}
+td.left{
+	text-align:right;
+}
+td.right{
+	text-align:left;
+}
+td.match{
+	text-align:center;
+	white-space:nowrap;
+	background:#eee;
+	
+}
+
+/** concordances **/
+#concordance{
+	width:880px;
+}
+div.concordance{
+	float:left;
+	background:white;
+}
+form.wordtree-control form {
+	width:800px;
+}
+
+div.wordtree-slider{
+	width:200px;
+	display:inline-block;
+}
+div.wordtree-container{
+	width:860px;
+	height:500px;
+	overflow:scroll;
+}

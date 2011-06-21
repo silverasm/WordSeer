@@ -1,0 +1,335 @@
+/*** The Page Layout
+**/
+
+div.narrative{
+	width:800px;
+	padding:5px;
+	margin-top:10px;
+	border:1px solid white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	font-family:'Calluna-Regular', georgia,serif;
+}
+div.metadata{
+	display:block;
+	width:700px;
+	background:white;
+}
+div.controls{
+	position:fixed;
+	bottom:0px;
+	left:71px;
+	width:700px;
+	background:#EEE;
+	padding:10px;
+}
+img.pattern-control{
+	height:30px;
+}
+img.pattern-control:hover{
+	background:#CCC;
+}
+div.words{
+	width:500px;
+	background:#fff;
+}
+div.navigation{
+	width:90%;
+	height:5%;
+}
+div.sentence-visual{
+	display:inline;
+	height:73%;
+	width:20px;
+	padding:1%;
+}
+div.author{
+	font-size:9px;
+	font-style:bold;
+}
+p.paragraph{
+	font-size:11px;
+	border:1px solid white;
+}
+h3.section-type{
+	text-transform:capitalize;
+	text-align:center;
+}
+span.word{
+}
+span.word:hover{
+	background:yellow;
+}
+span.word.highlighted:hover{
+	background:orange;
+}
+.highlighted{
+	background:orange;
+}
+span.searched{
+	background:yellow;
+}
+p.searched{
+	background:yellow;
+}
+ul > li{
+	list-style-type:none;
+}
+/** The save patterns dialog
+**/
+div#savePatterns {
+	width: 50%;
+	height:40%;
+	left:25%;
+	display:none;
+	padding:10px;
+	position:fixed;
+}
+img.button{
+	width:20px;
+	height:20px;
+	float:right;
+}
+div.dialog-controls-top{
+	width:100%;
+	height:10%;
+	top:0px;
+	background:#EEE;
+	float:left;
+}
+div.dialog-controls-bottom{
+	background:#EEE;
+	width:100%;
+	height:10%;
+	float:left;
+	bottom:0px;
+}
+form.dialog{
+	float:right;
+}
+div.textpattern{
+	border:1px solid #eee;
+	float:left;
+	height:80%;
+	width:49%;
+}
+h3.windowtitle{
+	margin:10px;
+	display:inline;
+}
+h2{
+	clear:left;
+}
+h4{
+	margin:10px;
+}
+span.relation{
+	font-style:italic;
+	background:#EEE;
+	font-size:80%;
+	margin-right:2px;
+	margin-left:2px;
+}
+
+/*** The visual index bar
+***
+**/
+div.indexer{
+	height:0.7%;
+	width:20px;
+	margin:1px;
+	background:#EEE;
+}
+div.indexer:hover{
+	background:yellow;
+}
+div.found{
+	background:green;
+}
+div.c0{
+	background:green;
+}
+div.c1{
+	background:blue;
+}
+div.c2{
+	background:orange;
+}
+div.c3{
+	background:purple;
+}
+div.c4{
+	background:pink;
+}
+/** The listing of narratives **/
+table.listing{
+}
+#listing{
+	clear:left;
+}
+
+td.column-name{
+	cursor:pointer;
+}
+td.column-name:hover{
+	background:orange;
+}
+
+/** Table of contents **/
+div.contents{
+	position:fixed;
+	bottom:0px;
+	left:800px;
+	border:1px solid #DDD;
+	padding:5px;
+}
+
+/** Tabs: additional styling **/
+div.tabs{
+	width:700px;
+}
+.tabs{
+	width:700px;
+}
+
+/** The annotation dialog */
+#annotate{
+	position:absolute;
+	padding:10px;
+	left:570px;
+	top:300px;
+	width:300px;
+}
+
+textarea.note{
+	height:100px;
+	width:280px;
+	display:block;
+}
+input.tags{
+	width:200px;
+}
+
+label.title{
+	display:block;
+}
+/** The display of annotations**/
+img.icon{
+	height:17px;
+	position:relative;
+}
+
+img.edit:hover, img.add:hover, img.trash:hover, img.delete:hover{
+	background:#DDD;
+	cursor:pointer;
+}
+img.add{
+	clear:right;
+	margin-top:3px;
+}
+img.annotation{
+	background:white;
+	position:relative;
+	top:35px;
+	display:block;
+}
+img.annotation:hover{
+	background:#DDD;
+	cursor:pointer;
+}
+img.tinyicon{
+	height:12px;
+	margin-left:3px;
+	position:relative;
+	top:2px;
+}
+#display-annotations{
+	position:absolute;
+	left:580px;
+	top:0px;
+}
+
+div.annotation{
+	width:300px;
+	position:absolute;
+}
+table.annotation{
+	top:0px;
+}
+table.annotation tr{
+	background:white;
+	vertical-align:top;
+	text-align:left;
+}
+table.annotation tr td:nth-child(1){
+	width:35px;
+	text-align:center;
+}
+span.annotated{
+	background:yellow;
+}
+span.user{
+	font-size:6px;
+	position:relative;
+}
+span.tag, span.heat-map-word{
+	background:#DDD;
+	padding:2px;
+	margin:3px;
+}
+span.note:hover{
+	cursor:default;
+}
+span.note.editable:hover{
+	background:#EEE;
+	cursor:text;
+}
+
+/** Heat map words **/
+img.delete{
+	top:5px;
+}
+#heat-map-query{
+	position:absolute;
+	left:570px;
+	width:200px;
+	padding:10px;
+}
+
+/** related words **/
+#related-words-container{
+	position:absolute;
+	padding:5px;
+	font-size:12px;
+	width:200px;
+}	
+#related-words-container h4 {
+ 	float:left;
+	width:150px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:0px;
+	text-align:left;
+}
+li.synset{
+	float:left;
+}
+li.synset h6{
+	font-size:15px;
+	font-style:underline;
+	margin:3px;
+}
+ul.synset{
+	width:70px;
+}
+ul.synset > li{
+	list-style-type:none;
+}
+span.synonym{
+	cursor:pointer;
+}
+span.synonym:hover{
+	background:#eee;
+}
+}

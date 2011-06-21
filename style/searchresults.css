@@ -1,0 +1,403 @@
+/*** The Page Layout
+****
+***/
+body{
+	font-family:'CallunaSans-Regular', helvetica, arial, sans-serif;
+	font-size:12px;
+	margin-left:50px;
+	background:#444;
+}
+#wrapper{
+	background:#fff;
+	z-index:-10;
+	padding:10px;
+	margin:10px;
+	min-height:800px;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+.hidden{
+	display:none;
+}
+nav{
+	height:20px;
+	padding-left:10px;
+}
+form{
+	float:none;
+	display:block;
+}
+fieldset{
+	background:#EEE;
+	border:0px;
+	padding-top:0px;
+}
+input, select{
+	font-size: 12px;
+	display:inline;
+}
+#frequencies{
+	min-width:1000px;
+}
+a img{
+	border:0px;
+}
+svg{
+	border:1px solid #DDD;
+}
+h3{
+	font-family:'CallunaSans-Regular',helvetica, arial, sans-serif;
+	font-size:18px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+h4{
+	font-family:'CallunaSans-Regular',helvetica, arial, sans-serif;
+	font-size:14px;
+	margin:0px;
+	text-align:center;
+}
+h5{
+	font-family:'CallunaSans-Regular',helvetica, arial, sans-serif;
+	font-size:12px;
+}
+h1.title{
+	font-family:'CallunaSans-Regular',helvetica, arial, sans-serif;
+	font-size:30px;
+	margin:20px;
+	float:left;
+}
+#header{
+	width:100%;
+	min-height:90px;
+}
+/** tabs **/
+div#tabs{
+	clear:left;
+	background:#AAA;
+	padding-top:10px;
+	padding-left:5px;
+	padding-bottom:10px;
+	border:1px solid white;
+}
+.tabs{
+	display:inline;
+	clear:none;
+	margin-left:0px;
+	margin-right:5px;
+	padding:5px;
+	padding-bottom:10px;
+	cursor:pointer;
+}
+.unselected:hover{
+	background:#CCC;
+}
+.selected{
+	background:#EEE;
+}
+/* The header */
+img.logo{
+	padding:5px;
+	height:70px;
+	display:inline;
+	border:2px solid white;
+	float:left;
+}
+img.logo:hover{
+	border:2px solid black;
+}
+
+ul.topbar li{
+	display:inline;
+	list-style-type:none;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:underline;
+	font-size:15px;
+}
+ul.topbar li:hover{
+	background:#aaa;
+}
+ul{
+	padding:0px;
+	margin:0px;
+}
+
+/** The top menu **/
+nav ul li.menu{
+	border:0px;
+	background:#fff;
+	list-style-type:none;
+	display:inline;
+	font-size:12px;
+	font-family:'CallunaSans-Regular', helvetica, arial, sans-serif;	
+	position:relative;
+}
+nav ul li.menu:hover{
+	text-decoration:underline;
+	background:#fff;
+}
+nav ul li.menu ul li.submenu{
+	list-style-type:none;
+	display:inline;
+	border:0px;
+}
+
+/** The form
+**
+**/
+form.search{
+	font-family:'Calluna-Regular';
+	clear:left;
+	width:1015px;
+}
+form.search label{
+	font-style:italic;
+}
+#gov, #dep{
+	width:200px;
+	font-family: :'CallunaSans-Regular', helvetica, arial, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+}
+input.button{
+	background:#1a1a1a;
+	background:-webkit-gradient(linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(250,250,250) ),
+		color-stop(1, rgb(230,230,230)));
+	background:-moz-linear-gradient(center bottom,
+			rgb(250, 250, 250) 0%, 
+			rgb(230,230,230) 100%);
+	font-size:12px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	border: 1px outset #AAA;
+	-moz-box-shadow: 1px 1px 3px #CCC;
+	-webkit-box-shadow: 1px 1px 3px #CCC;
+	box-shadow:1px 1px 3px #CCC;
+	font-family:'CallunaSans-Regular', helvetica, arial, sans-serif;	
+}
+select.select{
+	padding:2px;
+	font-family:'CallunaSans-Regular', helvetica, arial, sans-serif;
+	font-size:12px;
+}
+option.option{
+	background:#fff;
+}
+
+/** The search result display
+***
+**/
+#search-results{
+	text-align:center;
+}
+#submit-results{
+	text-align:center;
+}
+td{
+	padding:5px;
+	margin:0px;
+}
+tr.search-result-header{
+	font-family:'Calluna-Regular';
+	font-style:italic;
+	font-size:11px;
+}
+tr.search-result-header td{
+	background:#EEE;
+}
+tr.search-result{
+	background:#F5F5F5;
+	font-size:9px;
+}
+tr.search-result td{
+	margin:0px;
+}
+tr:nth-child(odd){
+	background:#EEE;
+}
+tr:nth-child(even){
+	background:#DDD;
+}
+td.hidden-id{
+	text-align:center;
+}
+.hidden-input{
+	display:none;
+}
+.highlight0{
+	background:gold;
+}
+.highlight1{
+	background:Aquamarine;
+}
+.highlight2{
+	background:pink;
+}
+.highlight3{
+	background:LightGreen;
+}
+.highlight4{
+	background:chocolate;
+}
+.highlight5{
+	background:LightCyan;
+}
+.highlight6{
+	background:LightSkyBlue;
+}
+
+img.view{
+	cursor:pointer;
+}
+
+#submit-results h3{
+	display:inline;
+}
+
+/** THe random sentence 
+**/
+#random{
+	width:1000px;
+	margin-left:2px;
+	margin-top:10px;
+	padding-left:10px;
+	border:1px solid #AAA;
+}
+
+#relationship-list{
+	margin:0px;
+	padding:0px;
+	float:left;
+	font-family:'CallunaSans-Regular', helvetica, arial, sans-serif;
+}
+
+#relationship-list li{
+	list-style-type:none;
+}
+#get-random{
+	font-size:9px;
+	padding:10px;
+}
+li.menu, li.submenu {
+	cursor:pointer;
+	display:block;
+	width:100px;
+	margin-left:0px;
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-right:10px;
+	padding:2px;
+	border:1px solid black;
+	background:white;
+}
+li.menu:hover, li.submenu:hover{
+	background:#DDD;
+}
+li.menu a{
+	width:100px;
+}
+#random-sentence{
+	float:left;
+	display:inline;
+	width:70%;
+	clear:right;
+	margin-left:10px;
+}
+
+#random-sentence p{
+	margin-top:10px;
+	font-family:'Calluna-Regular', helvetica, arial, sans-serif;
+	font-size:9px;
+}
+
+#random-instances{
+	width:100%;
+	float:left;
+	font-size:10px;
+}
+
+span.random-word{
+	padding:2px;
+	margin:1px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+	font-family:'Calluna-Regular', helvetica, arial, sans-serif, serif;
+	font-size:12px;
+}
+
+span.gov{
+	padding:2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+span.dep{
+	padding:2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+img.close{
+	float:right;
+	height:30px;
+}
+
+/** the frequency graph
+**/
+
+table.frequency-list{
+	width:100px;
+}
+
+/** Examples**/
+#examples h3{
+	margin-bottom:5px;
+}
+ul.examples{
+	background:#fff;
+	margin:0px;
+	padding:5px;
+	position:absolute;
+	border:1px solid black;
+	display:none;
+	z-index:1000;
+}
+
+/** dialog boxes **/
+div.overlay{
+	background:white;
+	-moz-box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	box-shadow:0px 0px 20px #000;
+}
+div.dialog{
+	display:none;
+	z-index:1000;
+	background: white;
+}
+
+/** signing in **/
+#user-forms{
+	position:fixed;
+	width:200px;
+	top:60px;
+	padding:10px;
+}
+#user-forms form label{
+	display:block;
+	float:none;
+}
+
+#user-forms form a{
+	cursor: pointer;
+	text-decoration:underline;
+}

@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://raphaeljs.com/reference.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Raphaël Reference</title>
+        <meta name="author" content="Dmitry Baranovskiy">
+        <meta name="description" content="Vector Graphics JavaScript Library">
+        <meta name="keywords" content="JavaScript Library, Raphael, SVG, VML">
+        <link rel="apple-touch-icon-precomposed" href="http://raphaeljs.com/Raphael.png">
+        <link rel="stylesheet" href="./Raphaël Reference_files/site.css" type="text/css">
+        <link rel="shortcut icon" href="http://raphaeljs.com/favicon16.png" type="image/x-icon">
+    </head>
+    <body class="raphael" id="reference">
+        <div id="header">
+            <h1><span><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100"><desc>Created with Raphaël</desc><defs></defs><path fill="#f89938" stroke="none" d="M49.973,94.128C44.760999999999996,94.128,39.86,92.099,36.174,88.411L11.424,63.661C7.734,59.976,5.701,55.074,5.701,49.859C5.701,44.643,7.734,39.74,11.425,36.053000000000004L36.175,11.304000000000006C39.861,7.617000000000006,44.76,5.589000000000006,49.973,5.589000000000006C55.185,5.589000000000006,60.086,7.617000000000006,63.772999999999996,11.303000000000006L88.52199999999999,36.05500000000001C92.21199999999999,39.73800000000001,94.24699999999999,44.641000000000005,94.24699999999999,49.858000000000004C94.24699999999999,55.075,92.21299999999998,59.977000000000004,88.52099999999999,63.663000000000004L63.772,88.411C60.086,92.099,55.185,94.128,49.973,94.128L49.973,94.128Z"></path><path fill="#3399ff" stroke="none" d="M33.014,23.398C33.014,14.032,40.607,6.439,49.973,6.439C59.34,6.439,66.932,14.032,66.932,23.398C66.932,32.765,59.34,40.357,49.973,40.357C40.606,40.358,33.014,32.765,33.014,23.398"></path><path fill="#333333" stroke="none" d="M93.816,61.314C96.046,57.943,97.24600000000001,53.994,97.24600000000001,49.859C97.24600000000001,44.288000000000004,95.07400000000001,39.053000000000004,91.13400000000001,35.121L64.707,8.691L64.69699999999999,8.701C60.92599999999999,4.924,55.71799999999999,2.5840000000000005,49.97199999999999,2.5840000000000005S39.019,4.925,35.249,8.702L35.24,8.692L8.813,35.118C4.872000000000001,39.055,2.7010000000000005,44.290000000000006,2.7010000000000005,49.859C2.7010000000000005,55.427,4.871,60.662000000000006,8.811,64.596L32.64,88.42500000000001C33.595,89.49700000000001,34.599000000000004,90.50000000000001,35.657000000000004,91.42200000000001C39.542,95.10300000000001,44.6,97.12700000000001,49.972,97.12700000000001C55.537,97.12700000000001,60.771,94.96000000000001,64.706,91.02300000000001L90.416,65.31400000000001C90.481,65.25000000000001,90.54599999999999,65.18400000000001,90.61099999999999,65.11900000000001L91.13199999999999,64.59900000000002C92.12499999999999,63.60800000000002,93.005,62.533000000000015,93.767,61.39200000000002C93.785,61.36700000000002,93.804,61.34300000000002,93.823,61.31800000000002L93.816,61.314ZM89.535,49.859C89.535,52.451,88.783,54.925000000000004,87.39099999999999,57.043C86.556,58.183,85.68499999999999,59.179,84.78699999999999,60.04L84.723,60.104C80.496,64.125,75.72,65.264,71.667,65.264C69.437,65.264,67.424,64.91799999999999,65.842,64.51899999999999C56.579,62.17899999999999,46.51,54.20799999999999,41.902,42.58299999999999C44.385,43.63199999999999,47.112,44.21199999999999,49.972,44.21199999999999C60.719,44.21199999999999,69.588,36.02499999999999,70.674,25.56199999999999L85.683,40.56999999999999C88.167,43.053,89.535,46.351,89.535,49.859ZM49.973,10.294C57.2,10.294,63.077,16.173000000000002,63.077,23.398C63.077,30.624,57.199,36.503,49.973,36.503C42.748,36.503,36.87,30.624000000000002,36.87,23.398C36.87,16.173,42.748,10.294,49.973,10.294ZM14.262,59.146C11.779,56.665,10.411000000000001,53.367000000000004,10.411000000000001,49.86C10.411000000000001,46.352,11.778000000000002,43.054,14.261000000000001,40.574L24.415,30.418999999999997C21.765,39.440999999999995,20.627,48.934999999999995,21.237,58.036C21.456,61.307,21.907999999999998,64.44500000000001,22.558,67.44L14.262,59.146ZM31.621,33.206C33.851,50.655,47.663,67.878,63.95399999999999,71.995C66.60799999999999,72.665,69.21,72.995,71.72699999999999,72.995C71.76299999999999,72.995,71.79999999999998,72.992,71.83599999999998,72.992L59.255999999999986,85.57300000000001C56.774999999999984,88.052,53.47799999999999,89.418,49.97199999999999,89.418C47.530999999999985,89.418,45.198999999999984,88.742,43.16699999999999,87.504L43.170999999999985,87.497C42.37099999999999,86.967,41.60899999999999,86.368,40.86799999999999,85.734C40.80999999999999,85.67699999999999,40.74799999999999,85.63,40.69099999999999,85.573L38.14899999999999,83.03099999999999C32.92199999999998,77.02999999999999,29.634999999999987,68.101,28.927999999999987,57.52099999999999C28.393,49.515,29.354,41.167,31.621,33.206"></path></svg>&nbsp;</span>Raphaël—JavaScript Library</h1>
+        </div>
+        <div id="content">
+            <div id="top"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="960" height="20"><desc>Created with Raphaël</desc><defs></defs><rect x="0" y="0" width="960" height="20" r="0" rx="0" ry="0" fill="#999999" stroke="#999999"></rect><rect x="0.5" y="0.5" width="959" height="50" r="20" rx="20" ry="20" fill="#eeeeee" stroke="#eeeeee"></rect></svg>&nbsp;</div>
+                    <div id="column-1">
+                        <h2>Main Function</h2>
+                        <h3 id="RAPHAEL">
+                            Raphael
+                        </h3>
+                        <p>
+                            Creates a canvas object on which to draw. You must do this first, as all future calls to drawing methods from this instance will be bound to this canvas.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>container <em>HTMLElement</em> or <em>string</em></li>
+                            <li>width <em>number</em></li>
+                            <li>height <em>number</em></li>
+                        </ol>
+                        <p>or</p>
+                        <ol>
+                            <li>x <em>number</em></li>
+                            <li>y <em>number</em></li>
+                            <li>width <em>number</em></li>
+                            <li>height <em>number</em></li>
+                        </ol>
+                        <p>or</p>
+                        <ol>
+                            <li>all <em>array</em> (first 3 or 4 elements in the array are equal to [containerID, width, height] or [x, y, width, height]. The rest are element descriptions in format {type: type, &lt;attributes&gt;})</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><span class="c">// Each of the following examples create a canvas that is 320px wide by 200px high</span>
+<span class="c">// Canvas is created at the viewport’s <span class="d">10</span>,<span class="d">50</span> coordinate</span>
+<b>var</b> paper<span class="s"> = </span>Raphael(<span class="d">10</span>, <span class="d">50</span>, <span class="d">320</span>, <span class="d">200</span>);
+<span class="c">// Canvas is created at the top left corner of the #notepad element</span>
+<span class="c">// (or its top right corner <b>in</b> dir=<i>"rtl"</i> elements)</span>
+<b>var</b> paper<span class="s"> = </span>Raphael(document.getElementById(<i>"notepad"</i>), <span class="d">320</span>, <span class="d">200</span>);
+<span class="c">// Same as above</span>
+<b>var</b> paper<span class="s"> = </span>Raphael(<i>"notepad"</i>, <span class="d">320</span>, <span class="d">200</span>);
+<span class="c">// Image dump</span>
+<b>var</b> set<span class="s"> = </span>Raphael([<i>"notepad"</i>, <span class="d">320</span>, <span class="d">200</span>, {
+    type: <i>"rect"</i>,
+    x: <span class="d">10</span>,
+    y: <span class="d">10</span>,
+    width: <span class="d">25</span>,
+    height: <span class="d">25</span>,
+    stroke: <i>"#f00"</i>
+}, {
+    type: <i>"text"</i>,
+    x: <span class="d">30</span>,
+    y: <span class="d">40</span>,
+    text: <i>"Dump"</i>
+}]);</code></pre>
+                        <h3 id="circle">
+                            circle
+                        </h3>
+                        <div class="sample" id="circle-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><circle cx="50" cy="50" r="40" fill="none" stroke="#ffffff" style="stroke-width: 2px; " stroke-width="2"></circle></svg></div>
+                        <p>
+                            Draws a circle.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>x <em>number</em> X coordinate of the centre</li>
+                            <li>y <em>number</em> Y coordinate of the centre</li>
+                            <li>r <em>number</em> radius</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">50</span>, <span class="d">50</span>, <span class="d">40</span>);</code></pre>
+                        <h3 id="rect">
+                            rect
+                        </h3>
+                        <div class="sample" id="rect-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><rect x="10" y="10" width="50" height="50" r="0" rx="0" ry="0" fill="none" stroke="#ffffff" style="stroke-width: 2px; " stroke-width="2"></rect><rect x="40" y="40" width="50" height="50" r="10" rx="10" ry="10" fill="none" stroke="#ffffff" style="stroke-width: 2px; " stroke-width="2"></rect></svg></div>
+                        <p>
+                            Draws a rectangle.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>x <em>number</em> X coordinate of top left corner</li>
+                            <li>y <em>number</em> Y coordinate of top left corner</li>
+                            <li>width <em>number</em></li>
+                            <li>height <em>number</em></li>
+                            <li>r <em>number</em> [optional] radius for rounded corners, default is 0</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><span class="c">// regular rectangle</span></code>
+<code><b>var</b> c<span class="s"> = </span>paper.rect(<span class="d">10</span>, <span class="d">10</span>, <span class="d">50</span>, <span class="d">50</span>);</code>
+<code><span class="c">// rectangle <b>with</b> rounded corners</span></code>
+<code><b>var</b> c<span class="s"> = </span>paper.rect(<span class="d">40</span>, <span class="d">40</span>, <span class="d">50</span>, <span class="d">50</span>, <span class="d">10</span>);</code></pre>
+                        <h3 id="ellipse">
+                            ellipse
+                        </h3>
+                        <div class="sample" id="ellipse-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><ellipse cx="50" cy="50" rx="40" ry="20" fill="none" stroke="#ffffff" style="stroke-width: 2px; " stroke-width="2"></ellipse></svg></div>
+                        <p>
+                            Draws an ellipse.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>x <em>number</em> X coordinate of the centre</li>
+                            <li>y <em>number</em> X coordinate of the centre</li>
+                            <li>rx <em>number</em> Horisontal radius</li>
+                            <li>ry <em>number</em> Vertical radius</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.ellipse(<span class="d">50</span>, <span class="d">50</span>, <span class="d">40</span>, <span class="d">20</span>);</code></pre>
+                        <h3 id="image">
+                            image
+                        </h3>
+                        <div class="sample" id="image-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><image x="10" y="10" width="80" height="80" preserveAspectRatio="none" href="bd.jpg"></svg></div>
+                        <p>
+                            Embeds an image into the SVG/VML canvas.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>src <em>string</em> URI of the source image</li>
+                            <li>x <em>number</em> X coordinate position</li>
+                            <li>y <em>number</em> Y coordinate position</li>
+                            <li>width <em>number</em> Width of the image</li>
+                            <li>height <em>number</em> Height of the image</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.image(<i>"apple.png"</i>, <span class="d">10</span>, <span class="d">10</span>, <span class="d">80</span>, <span class="d">80</span>);</code></pre>
+                        <h3 id="set">
+                            set
+                        </h3>
+                        <div class="sample" id="set-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><circle cx="35" cy="50" r="20" fill="#ffffff" stroke="#ffffff" style="stroke-width: 2px; " stroke-width="2"></circle><circle cx="65" cy="50" r="20" fill="#ffffff" stroke="#ffffff" style="stroke-width: 2px; " stroke-width="2"></circle></svg></div>
+                        <p>
+                            Creates array-like object to keep and operate couple of elements at once. Warning: it doesn’t create any elements for itself in the page.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> st<span class="s"> = </span>paper.set();</code>
+<code>st.push(
+    paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">5</span>),
+    paper.circle(<span class="d">30</span>, <span class="d">10</span>, <span class="d">5</span>)
+);</code>
+<code>st.attr({fill: <i>"red"</i>});</code></pre>
+                        <h3 id="text">
+                            text
+                        </h3>
+                        <div class="sample" id="text-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><text x="50" y="32.30000305175781" text-anchor="middle" style="text-anchor: middle; font: normal normal normal 21px/normal Fontin-Sans, Arial, sans-serif; " font="21px Fontin-Sans, Arial, sans-serif" stroke="none" fill="#ffffff"><tspan>Raphaël</tspan><tspan dy="25.2" x="50">kicks</tspan><tspan dy="25.2" x="50">butt!</tspan></text></svg></div>
+                        <p>
+                            Draws a text string. If you need line breaks, put “\n” in the string.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>x <em>number</em> X coordinate position.</li>
+                            <li>y <em>number</em> Y coordinate position.</li>
+                            <li>text <em>string</em> The text string to draw.</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> t<span class="s"> = </span>paper.text(<span class="d">50</span>, <span class="d">50</span>, <i>"Raphaël\nkicks\nbutt!"</i>);</code></pre>
+                        <h3 id="path">
+                            path
+                        </h3>
+                        <div class="sample" id="path-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><path fill="none" stroke="#ffffff" d="M10,10L90,90" style="stroke-width: 2px; " stroke-width="2"></path></svg></div>
+                        <p>
+                            Creates a path element by given path data string.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>pathString <em>string</em> [optional] Path data in <a href="http://www.w3.org/TR/SVG/paths.html#PathData" title="Details of a path&#39;s data attribute&#39;s format are described in the SVG specification.">SVG path string format</a>.</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.path(<i>"M10 10L90 <span class="d">90</span>"</i>);
+<span class="c">// draw a diagonal line:</span>
+<span class="c">// move to <span class="d">10</span>,<span class="d">10</span>, line to <span class="d">90</span>,<span class="d">90</span></span></code></pre>
+                        <h3 id="clear">
+                            clear
+                        </h3>
+                        <p>
+                            Clears the canvas, i.e. removes all the elements.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.path(<i>"M10 10L90 <span class="d">90</span>"</i>);
+paper.clear();</code></pre>
+                        <h2 id="Element">
+                            Element’s generic methods
+                        </h2>
+                        <p>
+                            Each object created on the canvas shares these same generic methods:
+                        </p>
+                        <h3 id="node">
+                            node
+                        </h3>
+                        <p>
+                            Gives you a reference to the DOM object, so you can assign event handlers or just mess around.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><span class="c">// draw a circle at coordinate <span class="d">10</span>,<span class="d">10</span> <b>with</b> radius of <span class="d">10</span></span>
+<b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+c.node.onclick<span class="s"> = </span><b>function</b> () {
+    c.attr(<i>"fill"</i>, <i>"red"</i>);
+};</code></pre>
+                        <h3 id="paper">
+                            paper
+                        </h3>
+                        <p>
+                            Internal reference to “paper” where object drawn. Mainly for use in plugins and element extensions.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>Raphael.el.cross<span class="s"> = </span><b>function</b> () {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+    <b>this</b>.paper.path(<i>"M10,10L50,50M50,10L10,<span class="d">50</span>"</i>)
+        .attr({stroke: <i>"red"</i>});
+}</code></pre>
+                        <h3 id="remove">
+                            remove
+                        </h3>
+                        <p>
+                            Removes element from the DOM. You can’t use it after this method call.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+c.remove();</code></pre>
+                        <h3 id="hide">
+                            hide
+                        </h3>
+                        <p>
+                            Makes element invisible.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+c.hide();</code></pre>
+                        <h3 id="show">
+                            show
+                        </h3>
+                        <p>
+                            Makes element visible.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+c.show();</code></pre>
+                        <h3 id="rotate">
+                            rotate
+                        </h3>
+                        <p>
+                            Rotates the element by the given degree from its center point.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>degree <em>number</em> Degree of rotation (0 – 360°)</li>
+                            <li>isAbsolute <em>boolean</em> [optional] Specifies is degree is relative to previous position (<code>false</code>) or is it absolute angle (<code>true</code>)</li>
+                        </ol>
+                        <p>or</p>
+                        <ol>
+                            <li>degree <em>number</em> Degree of rotation (0 – 360°)</li>
+                            <li>cx <em>number</em> [optional] X coordinate of the origin of rotation</li>
+                            <li>cY <em>number</em> [optional] Y coordinate of the origin of rotation</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+c.rotate(<span class="d">45</span>);        <span class="c">// rotation is relative</span>
+c.rotate(<span class="d">45</span>, <b>true</b>);  <span class="c">// rotation is absolute</span></code></pre>
+                        <h3 id="translate">
+                            translate
+                        </h3>
+                        <p>
+                            Moves the element around the canvas by the given distances.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>dx <em>number</em> Pixels of translation by X axis</li>
+                            <li>dy <em>number</em> Pixels of translation by Y axis</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+<span class="c">// moves the circle <span class="d">10</span>&nbsp;px to the right and down</span>
+c.translate(<span class="d">10</span>, <span class="d">10</span>);</code></pre>
+                        <h3 id="scale">
+                            scale
+                        </h3>
+                        <p>
+                            Resizes the element by the given multiplier.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>Xtimes <em>number</em> Amount to scale horizontally</li>
+                            <li>Ytimes <em>number</em> Amount to scale vertically</li>
+                            <li>centerX <em>number</em> [optional] X of the center of scaling, default is the center of the element</li>
+                            <li>centerY <em>number</em> [optional] Y of the center of scaling, default is the center of the element</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+<span class="c">// makes the circle <span class="d">1.5</span> times larger</span>
+c.scale(<span class="d">1.5</span>, <span class="d">1.5</span>);
+<span class="c">// makes the circle half as wide, and <span class="d">75</span>% as high</span>
+c.scale(<span class="d">.5</span>, <span class="d">.75</span>);</code></pre>
+                        <h3 id="attr">
+                            attr
+                        </h3>
+                        <p>
+                            Sets the attributes of elements directly.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>attributeName <em>string</em></li>
+                            <li>value <em>string</em></li>
+                        </ol>
+                        <p>or</p>
+                        <ol>
+                            <li>params <em>object</em></li>
+                        </ol>
+                        <p>or</p>
+                        <ol>
+                            <li>attributeName <em>string</em> in this case method returns current value for given attribute name</li>
+                        </ol>
+                        <p>or</p>
+                        <ol>
+                            <li>attributeNames <em>array</em> in this case method returns array of current values for given attribute names</li>
+                        </ol>
+                        <p>or</p>
+                        <p>no parameters, in this case object containing all attributes will be returned</p>
+                        <h4>Possible parameters</h4>
+                        <p>Please refer to the <a href="http://www.w3.org/TR/SVG/" title="The W3C Recommendation for the SVG language describes these properties in detail.">SVG specification</a> for an explanation of these parameters.</p>
+                        <ul>
+                            <li id="attr-clip-rect">clip-rect <em>string</em> comma or space separated values: x, y, width and height</li>
+                            <li id="attr-cursor">cursor <em>string</em> CSS type of the cursor</li>
+                            <li id="attr-cx">cx <em>number</em></li>
+                            <li id="attr-cy">cy <em>number</em></li>
+                            <li id="attr-fill">
+                                fill <em>colour</em> or <em>gradient</em>
+                                <ul>
+                                    <li>linear gradient: “‹angle›-‹colour›[-‹colour›[:‹offset›]]*-‹colour›”, example: “<samp>90-#fff-#000</samp>” – 90° gradient from white to black or “<samp>0-#fff-#f00:20-#000</samp>” – 0° gradient from white via red (at 20%) to black</li>
+                                    <li>radial gradient: “r[(‹fx›, ‹fy›)]‹colour›[-‹colour›[:‹offset›]]*-‹colour›”, example: “<samp>r#fff-#000</samp>” – gradient from white to black or “<samp>r(0.25, 0.75)#fff-#000</samp>” – gradient from white to black with focus point at 0.25, 0.75</li>
+                                    <li>Focus point coordinates are in 0..1 range</li>
+                                    <li>Radial gradients can only be applied to circles and ellipses</li>
+                                </ul>
+                            </li>
+                            <li id="attr-fill-opacity">fill-opacity <em>number</em></li>
+                            <li id="attr-font">font <em>string</em></li>
+                            <li id="attr-font-family">font-family <em>string</em></li>
+                            <li id="attr-font-size">font-size <em>number</em></li>
+                            <li id="attr-font-weight">font-weight <em>string</em></li>
+                            <li id="attr-height">height <em>number</em></li>
+                            <li id="attr-href">href <em>string</em> URL, if specified element behaves as hyperlink</li>
+                            <li id="attr-opacity">opacity <em>number</em></li>
+                            <li id="attr-path">path <em>pathString</em> <a href="http://www.w3.org/TR/SVG/paths.html#PathData" title="Details of a path’s data attribute’s format are described in the SVG specification.">SVG path string format</a></li>
+                            <li id="attr-r">r <em>number</em></li>
+                            <li id="attr-rotation">rotation <em>number</em></li>
+                            <li id="attr-rx">rx <em>number</em></li>
+                            <li id="attr-ry">ry <em>number</em></li>
+                            <li id="attr-scale">scale <em>string</em> comma or space separated values: xtimes, ytimes, cx, cy. See: <a href="http://raphaeljs.com/reference.html#scale">scale</a></li>
+                            <li id="attr-src">src <em>string</em> (URL)</li>
+                            <li id="attr-stroke">stroke <em>colour</em></li>
+                            <li id="attr-stroke-dasharray">stroke-dasharray <em>string</em> [“”, “<samp>-</samp>”, “<samp>.</samp>”, “<samp>-.</samp>”, “<samp>-..</samp>”, “<samp>. </samp>”, “<samp>- </samp>”, “<samp>--</samp>”, “<samp>-&nbsp;.</samp>”, “<samp>--.</samp>”, “<samp>--..</samp>”]</li>
+                            <li id="attr-stroke-linecap">stroke-linecap <em>string</em> [“<samp>butt</samp>”, “<samp>square</samp>”, “<samp>round</samp>”]</li>
+                            <li id="attr-stroke-linejoin">stroke-linejoin <em>string</em> [“<samp>bevel</samp>”, “<samp>round</samp>”, “<samp>miter</samp>”]</li>
+                            <li id="attr-stroke-miterlimit">stroke-miterlimit <em>number</em></li>
+                            <li id="attr-stroke-opacity">stroke-opacity <em>number</em></li>
+                            <li id="attr-stroke-width">stroke-width <em>number</em></li>
+                            <li id="attr-target">target <em>string</em> used with <a href="http://raphaeljs.com/reference.html#attr-href">href</a></li>
+                            <li id="attr-text-anchor">text-anchor <em>string</em> [“<samp>start</samp>”, “<samp>middle</samp>”, “<samp>end</samp>”], default is “middle”</li>
+                            <li id="attr-title">title <em>string</em> will create tooltip with a given text</li>
+                            <li id="attr-translation">translation <em>string</em> comma or space separated values: x and y</li>
+                            <li id="attr-width">width <em>number</em></li>
+                            <li id="attr-x">x <em>number</em></li>
+                            <li id="attr-y">y <em>number</em></li>
+                        </ul>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+<span class="c">// using strings</span>
+c.attr(<i>"fill"</i>, <i>"black"</i>);
+<span class="c">// using params object</span>
+c.attr({fill: <i>"#<span class="d">000</span>"</i>, stroke: <i>"#f00"</i>, opacity: <span class="d">0.5</span>});
+c.attr({
+    fill: <i>"<span class="d">90</span>-#fff-#<span class="d">000</span>"</i>,
+    <i>"stroke-dasharray"</i>: <i>"-.."</i>,
+    <i>"clip-rect"</i>: <i>"<span class="d">10</span>, <span class="d">10</span>, <span class="d">100</span>, <span class="d">100</span>"</i>
+});</code></pre>
+                        <h3 id="animate">
+                            animate
+                        </h3>
+                        <p>
+                            Changes an attribute from its current value to its specified value in the given amount of milliseconds.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>newAttrs <em>object</em> A parameters object of the animation results. (Not all attributes can be animated.)</li>
+                            <li>ms <em>number</em> The duration of the animation, given in milliseconds.</li>
+                            <li>callback <em>function</em> [optional]</li>
+                        </ol>
+                        <p>or</p>
+                        <ol>
+                            <li>newAttrs <em>object</em> A parameters object of the animation results. (Not all attributes can be animated.)</li>
+                            <li>ms <em>number</em> The duration of the animation, given in milliseconds.</li>
+                            <li>easing <em>string</em> [“<samp>&gt;</samp>”, “<samp>&lt;</samp>”, “<samp>&lt;&gt;</samp>”, “<samp>backIn</samp>”, “<samp>backOut</samp>”, “<samp>bounce</samp>”, “<samp>elastic</samp>”, “<samp>cubic-bezier(p1, p2, p3, p4)</samp>”] or <em>function</em> [optional], see <a href="http://www.w3.org/TR/css3-transitions/#transition-timing-function_tag" title="CSS Transitions Module Level 3">explanation re cubic-bezier syntax</a></li>
+                            <li>callback <em>function</em> [optional]</li>
+                        </ol>
+                        <p>or</p>
+                        <ol>
+                            <li>keyFrames <em>object</em> Key-value map, where key represents keyframe timing: [“from”, “20%”, “to”, “35%”, etc] and value is the same as <code>newAttrs</code> from above, except it could also have <samp>easing</samp> and <samp>callback</samp> properties</li>
+                            <li>ms <em>number</em> The duration of the animation, given in milliseconds.</li>
+                        </ol>
+                        <p>Look at the <a href="http://raphaeljs.com/bounce.html">example of keyframes usage</a></p>
+                        <h4>Attributes that can be animated</h4>
+                        <p>The <code>newAttrs</code> parameter accepts an object whose properties are the attributes to animate. However, not all attributes listed in the <code>attr</code> method reference can be animated. The following is a list of those properties that can be animated:</p>
+                        <ul>
+                            <li>clip-rect <em>string</em></li>
+                            <li>cx <em>number</em></li>
+                            <li>cy <em>number</em></li>
+                            <li>fill <em>colour</em></li>
+                            <li>fill-opacity <em>number</em></li>
+                            <li>font-size <em>number</em></li>
+                            <li>height <em>number</em></li>
+                            <li>opacity <em>number</em></li>
+                            <li>path <em>pathString</em></li>
+                            <li>r <em>number</em></li>
+                            <li>rotation <em>string</em></li>
+                            <li>rx <em>number</em></li>
+                            <li>ry <em>number</em></li>
+                            <li>scale <em>string</em></li>
+                            <li>stroke <em>colour</em></li>
+                            <li>stroke-opacity <em>number</em></li>
+                            <li>stroke-width <em>number</em></li>
+                            <li>translation <em>string</em></li>
+                            <li>width <em>number</em></li>
+                            <li>x <em>number</em></li>
+                            <li>y <em>number</em></li>
+                        </ul>
+                        <h4>Easing</h4>
+                        <p>
+                            For easing use built in functions or add your own by adding new functions to <code>Raphael.easing_formulas</code> object. Look at the <a href="http://raphaeljs.com/easing.html">example of easing usage</a>.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+c.animate({cx: <span class="d">20</span>, r: <span class="d">20</span>}, <span class="d">2000</span>);
+c.animate({cx: <span class="d">20</span>, r: <span class="d">20</span>}, <span class="d">2000</span>, <i>"bounce"</i>);
+c.animate({
+    <i>"<span class="d">20</span>%"</i>: {cx: <span class="d">20</span>, r: <span class="d">20</span>, easing: <i>"&gt;"</i>},
+    <i>"<span class="d">50</span>%"</i>: {cx: <span class="d">70</span>, r: <span class="d">120</span>, callback: <b>function</b> () {…}},
+    <i>"<span class="d">100</span>%"</i>: {cx: <span class="d">10</span>, r: <span class="d">10</span>}
+}, <span class="d">2000</span>);</code></pre>
+                        <h3 id="stop">
+                            Stop
+                        </h3>
+                        <p>
+                            Stops current animation.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+c.animate({cx: <span class="d">20</span>, r: <span class="d">20</span>}, <span class="d">2000</span>);
+<span class="c">// stop animation half way</span>
+setTimeout(<b>function</b> () { c.stop(); }, <span class="d">1000</span>);</code></pre>
+                        <h3 id="animateWith">
+                            animateWith
+                        </h3>
+                        <p>
+                            The same as <a href="http://raphaeljs.com/reference.html#animate"><code>animate</code></a> method, but synchronise animation with another element.
+                        </p>
+                        <h4>Parameters</h4>
+                        <p>The same as for <a href="http://raphaeljs.com/reference.html#animate"><code>animate</code></a> method, but first argument is an element.</p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>),
+    r<span class="s"> = </span>paper.rect(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+c.animate({cx: <span class="d">20</span>, r: <span class="d">20</span>}, <span class="d">2000</span>);
+r.animateWith(c, {x: <span class="d">20</span>}, <span class="d">2000</span>);</code></pre>
+                        <h3 id="animateAlong">
+                            animateAlong
+                        </h3>
+                        <div class="sample" id="along-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><text x="50" y="94" text-anchor="middle" style="text-anchor: middle; font: normal normal normal 10px/normal Arial; font-size: 12px; " font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff" font-size="12px"><tspan>Click here</tspan></text><path fill="none" stroke="#ffffff" d="M10,50C10,100,90,0,90,50C90,100,10,0,10,50Z" style="stroke-width: 2px; " stroke-width="2"></path><ellipse cx="10" cy="50" rx="4" ry="4" fill="#ff0000" stroke="none"></ellipse><rect x="0" y="0" width="100" height="100" r="0" rx="0" ry="0" fill="#000000" stroke="none" style="opacity: 0; " opacity="0"></rect></svg></div>
+                        <p>
+                            Animates element along the given path. As an option it could rotate element along the path.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>path <em>object</em> or <em>string</em> path element or path string along which the element will be animated</li>
+                            <li>ms <em>number</em> The duration of the animation, given in milliseconds.</li>
+                            <li>rotate <em>boolean</em> [optional] if true, element will be rotated along the path</li>
+                            <li>callback <em>function</em> [optional]</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> p<span class="s"> = </span>r.path(<i>"M100,100c0,<span class="d">50</span> <span class="d">100</span>-<span class="d">50</span> <span class="d">100</span>,0c0,<span class="d">50</span> -<span class="d">100</span>-<span class="d">50</span> -<span class="d">100</span>,0z"</i>).attr({stroke: <i>"#ddd"</i>}),
+    e<span class="s"> = </span>r.ellipse(<span class="d">104</span>, <span class="d">100</span>, <span class="d">4</span>, <span class="d">4</span>).attr({stroke: <i>"none"</i>, fill: <i>"#f00"</i>}),
+    b<span class="s"> = </span>r.rect(<span class="d">0</span>, <span class="d">0</span>, <span class="d">620</span>, <span class="d">400</span>).attr({stroke: <i>"none"</i>, fill: <i>"#<span class="d">000</span>"</i>, opacity: <span class="d">0</span>}).click(<b>function</b> () {
+        e.attr({rx: <span class="d">5</span>, ry: <span class="d">3</span>}).animateAlong(p, <span class="d">4000</span>, <b>true</b>, <b>function</b> () {
+            e.attr({rx: <span class="d">4</span>, ry: <span class="d">4</span>});
+        });
+    });</code></pre>
+                        <h3 id="animateAlongBack">
+                            animateAlongBack
+                        </h3>
+                        <p>
+                            Similar to <a href="http://raphaeljs.com/animateAlong"><code>animateAlong</code></a>. Animates element along the given path, starting from the end of it.
+                        </p>
+                        <h3 id="onAnimation">
+                            onAnimation
+                        </h3>
+                        <div class="sample" id="onanim-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><text x="50" y="94" text-anchor="middle" style="text-anchor: middle; font: normal normal normal 10px/normal Arial; font-size: 12px; " font="10px &quot;Arial&quot;" stroke="none" fill="#ffffff" font-size="12px"><tspan>Click here</tspan></text><path fill="none" stroke="#ffffff" d="M10,50C10,100,90,0,90,50C90,100,10,0,10,50Z" style="stroke-width: 2px; " stroke-width="2"></path><path fill="none" stroke="#ff0000" d="M50,10L10,50"></path><ellipse cx="10" cy="50" rx="4" ry="4" fill="#ff0000" stroke="none"></ellipse><ellipse cx="50" cy="10" rx="4" ry="4" fill="#ff0000" stroke="none"></ellipse><rect x="0" y="0" width="100" height="100" r="0" rx="0" ry="0" fill="#000000" stroke="none" style="opacity: 0; " opacity="0"></rect></svg></div>
+                        <p>
+                            Sets or resets the function that will be called on each stage of the animation.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>f <em>function</em> function that will be called on each stage of animation</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> p<span class="s"> = </span>r.path(<i>"M10,50c0,<span class="d">50</span>,<span class="d">80</span>-<span class="d">50</span>,<span class="d">80</span>,0c0,<span class="d">50</span>-<span class="d">80</span>-<span class="d">50</span>-<span class="d">80</span>,0z"</i>),
+    p2<span class="s"> = </span>r.path(),
+    e<span class="s"> = </span>r.ellipse(<span class="d">10</span>, <span class="d">50</span>, <span class="d">4</span>, <span class="d">4</span>).attr({stroke: <i>"none"</i>, fill: <i>"#f00"</i>}).onAnimation(<b>function</b> () {
+        p2.attr({path: <i>"M50,10L"</i><span class="s"> + </span>e.attr(<i>"cx"</i>)<span class="s"> + </span><i>","</i><span class="s"> + </span>e.attr(<i>"cy"</i>)});
+    }),
+    b<span class="s"> = </span>r.rect(<span class="d">0</span>, <span class="d">0</span>, <span class="d">620</span>, <span class="d">400</span>).attr({stroke: <i>"none"</i>, fill: <i>"#<span class="d">000</span>"</i>, opacity: <span class="d">0</span>}).click(<b>function</b> () {
+        e.attr({rx: <span class="d">5</span>, ry: <span class="d">3</span>}).animateAlong(p, <span class="d">4000</span>, <b>true</b>, <b>function</b> () {
+            e.attr({rx: <span class="d">4</span>, ry: <span class="d">4</span>});
+        });
+    });</code></pre>
+                        <h3 id="getBBox">
+                            getBBox
+                        </h3>
+                        <p>
+                            Returns the dimensions of an element.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);</code>
+<code><b>var</b> width<span class="s"> = </span>c.getBBox().width;</code></pre>
+                        <h3 id="toFront">
+                            toFront
+                        </h3>
+                        <p>
+                            Moves the element so it is the closest to the viewer’s eyes, on top of other elements.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);</code>
+<code>c.toFront();</code></pre>
+                        <h3 id="toBack">
+                            toBack
+                        </h3>
+                        <p>
+                            Moves the element so it is the furthest from the viewer’s eyes, behind other elements.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);</code>
+<code>c.toBack();</code></pre>
+                        <h3 id="insertBefore">
+                            insertBefore
+                        </h3>
+                        <p>
+                            Inserts current object before the given one.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> r<span class="s"> = </span>paper.rect(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);</code>
+<code><b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);</code>
+<code>c.insertBefore(r);</code></pre>
+                        <h3 id="insertAfter">
+                            insertAfter
+                        </h3>
+                        <p>
+                            Inserts current object after the given one.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> r<span class="s"> = </span>paper.rect(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+<b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+r.insertAfter(c);</code></pre>
+                        <h3 id="clone">
+                            clone
+                        </h3>
+                        <p>
+                            Returns a clone of the current element.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> r<span class="s"> = </span>paper.rect(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>);
+<b>var</b> c<span class="s"> = </span>r.clone();</code></pre>
+                        <h2>Graphic Primitives</h2>
+                        <p>
+                            Methods of “paper” object, created with <code>Raphael</code> function call.
+                        </p>
+                        <h3 id="raphael">
+                            raphael
+                        </h3>
+                        <p>
+                            Internal reference to <code>Raphael</code> object. In case it is not available.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>Raphael.el.red<span class="s"> = </span><b>function</b> () {
+    <b>var</b> hsb<span class="s"> = </span><b>this</b>.paper.raphael.rgb2hsb(<b>this</b>.attr(<i>"fill"</i>));
+    hsb.h<span class="s"> = </span><span class="d">1</span>;
+    <b>this</b>.attr({fill: <b>this</b>.paper.raphael.hsb2rgb(hsb).hex});
+}</code></pre>
+                        <h3 id="getTotalLength">
+                            getTotalLength
+                        </h3>
+                        <p>
+                            Path specific method. Returns length of the path in pixels.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> p<span class="s"> = </span>r.path(<i>"M100,100c0,<span class="d">50</span> <span class="d">100</span>-<span class="d">50</span> <span class="d">100</span>,0c0,<span class="d">50</span> -<span class="d">100</span>-<span class="d">50</span> -<span class="d">100</span>,0z"</i>);
+    alert(p.getTotalLength());</code></pre>
+                        <h3 id="getPointAtLength">
+                            getPointAtLength
+                        </h3>
+                        <div class="sample" id="point-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><path fill="none" stroke="#ffffff" d="M10,50C10,100,90,0,90,50C90,100,10,0,10,50Z" style="stroke-width: 2px; " stroke-width="2"></path><circle cx="29.391716111189567" cy="61.724644441052256" r="3" fill="#ff0000" stroke="none"></circle></svg></div>
+                        <p>
+                            Path specific method. Returns point description at given length.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>length <em>number</em> length in pixels from the beginining of the path to the point</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> p<span class="s"> = </span>r.path(<i>"M10,50c0,<span class="d">50</span>,<span class="d">80</span>-<span class="d">50</span>,<span class="d">80</span>,0c0,<span class="d">50</span>-<span class="d">80</span>-<span class="d">50</span>-<span class="d">80</span>,0z"</i>);
+    <b>var</b> point<span class="s"> = </span>p.getPointAtLength(<span class="d">30</span>);
+    r.circle(point.x, point.y, <span class="d">3</span>);</code></pre>
+                        <p>Returned object format:</p>
+                        <ul>
+                            <li>x – x coordinate of the point</li>
+                            <li>y – y coordinate of the point</li>
+                            <li>alpha – angle of the path at the point</li>
+                        </ul>
+                        <h3 id="getSubpath">
+                            getSubpath
+                        </h3>
+                        <div class="sample" id="subpath-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><path fill="none" stroke="#ffffff" d="M10,50C10,100,90,0,90,50C90,100,10,0,10,50Z" style="stroke-width: 2px; " stroke-width="2"></path><path fill="none" stroke="#ff0000" d="M11.683452563605176,59.78394700398797C17.46734430100277,71.86866713032386,37.17277866110278,57.850494839092725,55.36873340772528,46.66259682313193" style="stroke-width: 2px; " stroke-width="2"></path></svg></div>
+                        <p>
+                            Path specific method. Returns the subpath string of a given path.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>from <em>number</em> length in pixels from the beginning of the path to the beginning of the subpath</li>
+                            <li>to <em>number</em> length in pixels from the beginning of the path to the end of the subpath</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> p<span class="s"> = </span>r.path(<i>"M10,50c0,<span class="d">50</span>,<span class="d">80</span>-<span class="d">50</span>,<span class="d">80</span>,0c0,<span class="d">50</span>-<span class="d">80</span>-<span class="d">50</span>-<span class="d">80</span>,0z"</i>);
+    <b>var</b> path<span class="s"> = </span>p.getSubpath(<span class="d">10</span>, <span class="d">60</span>);
+    r.path(path).attr({stroke: <i>"#f00"</i>});</code></pre>
+                        <h3 id="setSize">
+                            setSize
+                        </h3>
+                        <p>
+                            If you need to change dimensions of the canvas call this method
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>width <em>number</em> new width of the canvas</li>
+                            <li>height <em>number</em> new height of the canvas</li>
+                        </ol>
+                        <h3 id="setWindow">
+                            setWindow
+                        </h3>
+                        <p>
+                            Should be called before main Raphael method. Sets which window should be used for drawing. Default is the current one. You need to use it if you want to draw inside <code>iframe</code>
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>window <em>object</em></li>
+                        </ol>
+                        <h3 id="getRGB">
+                            getRGB
+                        </h3>
+                        <p>
+                            Parses passes string and returns an colour object. Especially useful for plug-in developers.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>color <em>string</em> Colour in form acceptable by library</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> stroke<span class="s"> = </span>Raphael.getRGB(circle.attr(<i>"stroke"</i>)).hex;</code></pre>
+                        <h3 id="angle">
+                            angle
+                        </h3>
+                        <p>
+                            Gives you an angle of the line formed by two points or angle between two lines formed by three points.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>x1 <em>number</em> X of the first point</li>
+                            <li>y1 <em>number</em> Y of the first point</li>
+                            <li>x2 <em>number</em> X of the second point</li>
+                            <li>y2 <em>number</em> Y of the second point</li>
+                            <li>x3 <em>number</em> X of the third point [optional]</li>
+                            <li>y3 <em>number</em> Y of the third point [optional]</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> angle<span class="s"> = </span>Raphael.angle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">50</span>, <span class="d">50</span>);</code></pre>
+                        <h3 id="rad">
+                            rad
+                        </h3>
+                        <p>
+                            Converts angle to radians.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>deg <em>number</em> value of an angle in degrees</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> Sin<span class="s"> = </span>Math.sin(Raphael.rad(<span class="d">45</span>));</code></pre>
+                        <h3 id="deg">
+                            deg
+                        </h3>
+                        <p>
+                            Converts angle to degree.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>rad <em>number</em> value of an angle in radians</li>
+                        </ol>
+                        <h3 id="snapTo">
+                            snapTo
+                        </h3>
+                        <p>
+                            Returns a number adjusted to one of various values, if it’s close enough.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>values <em>number or array</em> If values is a number, the value will be snapped to any multiple. If an array, the value will be snapped to the first element that’s within tolerance.</li>
+                            <li>value <em>number</em> The value to adjust</li>
+                            <li>tolerance <em>number</em> The value must be within tolerance of one of the snap values, or it will be returned unchanged [optional, default 10]</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><span class="c">// adjust -<span class="d">10</span>.<span class="d">.10</span> to <span class="d">0</span>, <span class="d">40</span>.<span class="d">.60</span> to <span class="d">50</span>, <span class="d">90</span>-<span class="d">110</span> to <span class="d">100</span>, etc</span>
+x<span class="s"> = </span>Raphael.snapTo(<span class="d">50</span>, x);
+<span class="c">// adjust <span class="d">5</span>.<span class="d">.35</span> to <span class="d">20</span>, <span class="d">45</span>.<span class="d">.75</span> to <span class="d">60</span>, otherwise no change</span>
+x<span class="s"> = </span>Raphael.snapTo([<span class="d">20</span>, <span class="d">60</span>], x, <span class="d">15</span>);</code></pre>
+                        <h3 id="getColor">
+                            getColor
+                        </h3>
+                        <p>
+                            Returns a colour object for the next colour in spectrum
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>value <em>number</em> brightness [optional]</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>paper.path(<i>"M10,10L100,<span class="d">100</span>"</i>).attr({stroke: Raphael.getColor()});</code></pre>
+                        <h3 id="getColor-reset">
+                            getColor.reset
+                        </h3>
+                        <p>
+                            Resets getColor function, so it will start from the beginning
+                        </p>
+                        <h3 id="registerFont">
+                            registerFont
+                        </h3>
+                        <p>
+                            Adds given font to the registered set of fonts for Raphaël. Should be used as an internal call from within Cufón’s font file. <a href="http://wiki.github.com/sorccu/cufon/about">More about Cufón and how to convert your font form TTF, OTF, etc to JavaScript file</a>. Returns original parameter, so it could be used with chaining.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>font <em>object</em> the font to register</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>Cufon.registerFont(Raphael.registerFont({…}))</code></pre>
+                        <h3 id="getFont">
+                            getFont
+                        </h3>
+                        <p>
+                            Finds font object in the registered fonts by given parameters. You could specify only one word from the font name, like “Myriad” for “Myriad Pro”.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>family <em>string</em> font family name or any word from it</li>
+                            <li>weight <em>string</em> weight of the font [optional]</li>
+                            <li>style <em>string</em> style of the font [optional]</li>
+                            <li>stretch <em>string</em> stretch of the font [optional]</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>paper.print(<span class="d">100</span>, <span class="d">100</span>, <i>"Test string"</i>, paper.getFont(<i>"Times"</i>, <span class="d">800</span>), <span class="d">30</span>);</code></pre>
+                        <h3 id="print">
+                            print
+                        </h3>
+                        <div class="sample" id="print-sample"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="99" height="99"><desc>Created with Raphaël</desc><defs></defs><path fill="#ff0000" stroke="none" d="M13.25,63.458333333333314L13.25,44.79133333333331C13.25,44.375333333333316,13,44.125333333333316,12.583,44.125333333333316L11.333,44.125333333333316L11.333,42.375333333333316L13.417,42.375333333333316C14.667,42.375333333333316,15.25,42.875333333333316,15.25,43.958333333333314C15.25,44.54133333333331,15.167,44.958333333333314,15.167,44.958333333333314L15.25,44.958333333333314C15.25,44.958333333333314,16.417,42.04133333333331,20.417,42.04133333333331C24.5,42.04133333333331,27,45.29133333333331,27,49.958333333333314C27,54.708333333333314,24.167,57.79133333333331,20.25,57.79133333333331C16.583,57.79133333333331,15.333,54.958333333333314,15.333,54.958333333333314L15.25,54.958333333333314C15.25,54.958333333333314,15.333,55.54133333333331,15.333,56.29133333333331L15.333,63.458333333333314L13.25,63.458333333333314ZM15.25,49.958333333333314C15.25,52.958333333333314,16.917,56.04133333333331,20.083,56.04133333333331C22.75,56.04133333333331,24.916999999999998,53.79133333333331,24.916999999999998,49.958333333333314C24.916999999999998,46.29133333333331,22.999999999999996,43.875333333333316,20.166999999999998,43.875333333333316C17.666999999999998,43.875333333333316,15.249999999999998,45.708333333333314,15.249999999999998,49.958333333333314Z" transform="  "></path><path fill="#ffffff" stroke="none" d="M30.833333333333314,57.45833333333333L30.833333333333314,44.79133333333333C30.833333333333314,44.37533333333333,30.583333333333314,44.12533333333333,30.166333333333313,44.12533333333333L28.916333333333313,44.12533333333333L28.916333333333313,42.37533333333333L31.000333333333312,42.37533333333333C32.250333333333316,42.37533333333333,32.833333333333314,42.87533333333333,32.833333333333314,44.04133333333333L32.833333333333314,45.12533333333333L32.833333333333314,46.20833333333333L32.833333333333314,46.20833333333333C33.583333333333314,43.95833333333333,35.333333333333314,42.20833333333333,37.66633333333331,42.20833333333333C38.083333333333314,42.20833333333333,38.41633333333331,42.29133333333333,38.41633333333331,42.29133333333333L38.41633333333331,44.29133333333333L37.66633333333331,44.29133333333333C35.500333333333316,44.29133333333333,34.000333333333316,45.87533333333333,33.333333333333314,48.12533333333333C33.000333333333316,49.12533333333333,32.91633333333331,50.12533333333333,32.91633333333331,51.12533333333333L32.91633333333331,57.45833333333333L30.833333333333314,57.45833333333333Z" transform="  "></path><path fill="#ffffff" stroke="none" d="M41.75,38.95833333333333L41.75,36.37533333333333L43.75,36.37533333333333L43.75,38.95833333333333L41.75,38.95833333333333ZM41.833,55.62533333333333L41.833,44.79133333333333C41.833,44.37533333333333,41.583,44.12533333333333,41.167,44.12533333333333L39.917,44.12533333333333L39.917,42.37533333333333L42.083,42.37533333333333C43.333,42.37533333333333,43.917,42.95833333333333,43.917,44.20833333333333L43.917,55.04133333333333C43.917,55.45833333333333,44.167,55.70833333333333,44.583,55.70833333333333L45.833,55.70833333333333L45.833,57.45833333333333L43.667,57.45833333333333C42.417,57.45833333333333,41.833,56.87533333333333,41.833,55.62533333333333Z" transform="  "></path><path fill="#ffffff" stroke="none" d="M49.166666666666686,57.45833333333334L49.166666666666686,44.79133333333334C49.166666666666686,44.375333333333344,48.916666666666686,44.125333333333344,48.499666666666684,44.125333333333344L47.249666666666684,44.125333333333344L47.249666666666684,42.375333333333344L49.33366666666669,42.375333333333344C50.58366666666669,42.375333333333344,51.166666666666686,42.875333333333344,51.166666666666686,44.04133333333334L51.166666666666686,44.70833333333334L51.166666666666686,45.79133333333334L51.166666666666686,45.79133333333334C51.666666666666686,44.375333333333344,53.666666666666686,42.04133333333334,57.166666666666686,42.04133333333334C60.916666666666686,42.04133333333334,62.249666666666684,44.125333333333344,62.249666666666684,47.875333333333344L62.249666666666684,55.04133333333334C62.249666666666684,55.45833333333334,62.499666666666684,55.70833333333334,62.916666666666686,55.70833333333334L64.16666666666669,55.70833333333334L64.16666666666669,57.45833333333334L62.08366666666669,57.45833333333334C60.83366666666669,57.45833333333334,60.249666666666684,56.875333333333344,60.249666666666684,55.625333333333344L60.249666666666684,48.375333333333344C60.249666666666684,46.04133333333334,59.916666666666686,43.95833333333334,56.999666666666684,43.95833333333334C54.416666666666686,43.95833333333334,52.166666666666686,45.70833333333334,51.499666666666684,48.20833333333334C51.33366666666669,48.875333333333344,51.249666666666684,49.45833333333334,51.249666666666684,50.20833333333334L51.249666666666684,57.45833333333334L49.166666666666686,57.45833333333334Z" transform="  "></path><path fill="#ffffff" stroke="none" d="M67.5,51.95833333333334L67.5,44.04133333333334L65.583,44.04133333333334L65.583,42.375333333333344L67.583,42.375333333333344L67.583,38.20833333333334L69.583,38.20833333333334L69.583,42.375333333333344L73.333,42.375333333333344L73.333,44.04133333333334L69.583,44.04133333333334L69.583,51.79133333333334C69.583,55.29133333333334,71.833,55.70833333333334,73,55.70833333333334L73.667,55.70833333333334L73.667,57.54133333333334L72.75,57.54133333333334C71,57.54133333333334,67.5,56.95833333333334,67.5,51.95833333333334Z" transform="  "></path></svg></div>
+                        <p>
+                            Creates set of shapes to represent given font at given position with given size. Result of the method is set object (see <a href="http://raphaeljs.com/reference.html#set">set</a>) which contains each letter as separate path object.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>x <em>number</em> x position of the text</li>
+                            <li>y <em>number</em> y position of the text</li>
+                            <li>text <em>string</em> text to print</li>
+                            <li>font <em>object</em> font object (see <a href="http://raphaeljs.com/reference.html#getFont">getFont</a>)</li>
+                            <li>font_size <em>number</em> size of the font</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> txt<span class="s"> = </span>r.print(<span class="d">10</span>, <span class="d">50</span>, <i>"print"</i>, r.getFont(<i>"Museo"</i>), <span class="d">30</span>).attr({fill: <i>"#fff"</i>});
+<span class="c">// following line will paint first letter <b>in</b> red</span>
+txt[<span class="d">0</span>].attr({fill: <i>"#f00"</i>});</code></pre>
+                        <h3 id="plugins-canvas">
+                            Adding your own methods to canvas
+                        </h3>
+                        <p>
+                            You can add your own method to the canvas. For example if you want to draw pie chart, you can create your own pie chart function and ship it as a Raphaël plugin. To do this you need to extend Raphael.fn object. Please note that you can create your own namespaces inside fn object. Methods will be run in context of canvas anyway. You should alter fn object before Raphaël instance was created, otherwise it will take no effect.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>Raphael.fn.arrow<span class="s"> = </span><b>function</b> (x1, y1, x2, y2, size) {
+    <b>return</b> <b>this</b>.path( ... );
+};
+<span class="c">// or create namespace</span>
+Raphael.fn.mystuff<span class="s"> = </span>{
+    arrow: <b>function</b> () {…},
+    star: <b>function</b> () {…},
+    <span class="c">// etc…</span>
+};
+<b>var</b> paper<span class="s"> = </span>Raphael(<span class="d">10</span>, <span class="d">10</span>, <span class="d">630</span>, <span class="d">480</span>);
+<span class="c">// then use it</span>
+paper.arrow(<span class="d">10</span>, <span class="d">10</span>, <span class="d">30</span>, <span class="d">30</span>, <span class="d">5</span>).attr({fill: <i>"#f00"</i>});
+paper.mystuff.arrow();
+paper.mystuff.star();
+</code></pre>
+                        <h3 id="plugins-elements">
+                            Adding your own methods to elements
+                        </h3>
+                        <p>
+                            You can add your own method to elements. This is usefull when you want to hack default functionality or want to wrap some common transformation or attributes in one method. In difference to canvas mathods, you can redefine element method at any time.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>Raphael.el.red<span class="s"> = </span><b>function</b> () {
+    <b>this</b>.attr({fill: <i>"#f00"</i>});
+};
+<span class="c">// then use it</span>
+paper.circle(<span class="d">100</span>, <span class="d">100</span>, <span class="d">20</span>).red();
+</code></pre>
+                        <h3 id="custom-attributes">
+                            Custom Attributes
+                        </h3>
+                        <p>
+                            If you have a set of attributes that you would like to represent as a function of some number you can do it easily with custom attributes:
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>paper.customAttributes.hue<span class="s"> = </span><b>function</b> (num) {
+    num<span class="s"> = </span>num % <span class="d">1</span>;
+    <b>return</b> {fill: <i>"hsb("</i><span class="s"> + </span>num<span class="s"> + </span><i>", <span class="d">.75</span>, <span class="d">1</span>)"</i>};
+};
+<span class="c">// Custom attribute “hue” will change fill</span>
+<span class="c">// to be given hue <b>with</b> fixed saturation and brightness.</span>
+<span class="c">// Now you can use it like <b>this</b>:</span>
+<b>var</b> c<span class="s"> = </span>paper.circle(<span class="d">10</span>, <span class="d">10</span>, <span class="d">10</span>).attr({hue: <span class="d">.45</span>});
+<span class="c">// or even like <b>this</b>:</span>
+c.animate({hue: <span class="d">1</span>}, <span class="d">1e3</span>);
+
+<span class="c">// You could also create custom attribute</span>
+<span class="c">// <b>with</b> multiple parameters:</span>
+paper.customAttributes.hsb<span class="s"> = </span><b>function</b> (h, s, b) {
+    <b>return</b> {fill: <i>"hsb("</i><span class="s"> + </span>[h, s, b].join(<i>","</i>)<span class="s"> + </span><i>")"</i>};
+};
+c.attr({hsb: <i>"<span class="d">.5</span> <span class="d">.8</span> <span class="d">1</span>"</i>});
+c.animate({hsb: <i>"<span class="d">1</span> <span class="d">0</span> <span class="d">.5</span>"</i>}, <span class="d">1e3</span>);
+</code></pre>
+                        <h3 id="colour">
+                            Supported colour formats
+                        </h3>
+                        <p>
+                            You could specify colour in this formats:
+                        </p>
+                        <ul>
+                            <li>Colour name (“<samp>red</samp>”, “<samp>green</samp>”, “<samp>cornflowerblue</samp>”, etc)</li>
+                            <li>#••• — shortened HTML colour: (“<samp>#000</samp>”, “<samp>#fc0</samp>”, etc)</li>
+                            <li>#•••••• — full length HTML colour: (“<samp>#000000</samp>”, “<samp>#bd2300</samp>”)</li>
+                            <li>rgb(•••, •••, •••) — red, green and blue channels’ values: (“<samp>rgb(200,&nbsp;100,&nbsp;0)</samp>”)</li>
+                            <li>rgb(•••%, •••%, •••%) — same as above, but in %: (“<samp>rgb(100%,&nbsp;175%,&nbsp;0%)</samp>”)</li>
+                            <li>rgba(•••, •••, •••, •••) — red, green and blue channels’ values: (“<samp>rgba(200,&nbsp;100,&nbsp;0, .5)</samp>”)</li>
+                            <li>rgba(•••%, •••%, •••%, •••%) — same as above, but in %: (“<samp>rgba(100%,&nbsp;175%,&nbsp;0%, 50%)</samp>”)</li>
+                            <li>hsb(•••, •••, •••) — hue, saturation and brightness values: (“<samp>hsb(0.5,&nbsp;0.25,&nbsp;1)</samp>”)</li>
+                            <li>hsb(•••%, •••%, •••%) — same as above, but in %</li>
+                            <li>hsba(•••, •••, •••, •••) — same as above, but with opacity</li>
+                            <li>hsl(•••, •••, •••) — almost the same as hsb, see <a href="http://en.wikipedia.org/wiki/HSL_and_HSV" title="HSL and HSV - Wikipedia, the free encyclopedia">Wikipedia page</a></li>
+                            <li>hsl(•••%, •••%, •••%) — same as above, but in %</li>
+                            <li>hsla(•••, •••, •••) — same as above, but with opacity</li>
+                            <li>Optionally for hsb and hsl you could specify hue as a degree: “<samp>hsl(240deg,&nbsp;1,&nbsp;.5)</samp>” or, if you want to go fancy, “<samp>hsl(240°,&nbsp;1,&nbsp;.5)</samp>”</li>
+                        </ul>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>paper.circle(<span class="d">100</span>, <span class="d">100</span>, <span class="d">20</span>).attr({
+    fill: <i>"hsb(<span class="d">0.6</span>, <span class="d">1</span>, <span class="d">0.75</span>)"</i>,
+    stroke: <i>"red"</i>
+});</code></pre>
+                        <h3 id="safari">
+                            safari
+                        </h3>
+                        <p>
+                            There is an inconvenient rendering bug is Safari (WebKit): sometimes the rendering should be forced. This method should help with dealing with this bug.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>paper.safari();</code></pre>
+                        <h3 id="ninja-mode">
+                            “Ninja Mode”
+                        </h3>
+                        <p>
+                            If you want to leave no trace of Raphaël (Well, Raphaël creates only one global variable <code>Raphael</code>, but anyway.) You can use <code>ninja</code> method. Beware, that in this case plugins could stop working, because they are depending on global variable existance.
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>(<b>function</b> (local_raphael) {
+    <b>var</b> paper<span class="s"> = </span>local_raphael(<span class="d">10</span>, <span class="d">10</span>, <span class="d">320</span>, <span class="d">200</span>);
+    …
+})(Raphael.ninja());
+</code></pre>
+                        <h3 id="events">
+                            Events
+                        </h3>
+                        <p>
+                            You can attach events to elements by using element.node and your favourite library (<samp>$(circle.node).click(…)</samp>) or you can use built-in methods:
+                        </p>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code>element.click(<b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+});
+element.dblclick(<b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+});
+element.mousedown(<b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+});
+element.mousemove(<b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+});
+element.mouseout(<b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+});
+element.mouseover(<b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+});
+element.mouseup(<b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+});
+element.hover(<b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"red"</i>});
+}, <b>function</b> (event) {
+    <b>this</b>.attr({fill: <i>"black"</i>});
+}, overScope, outScope);</code></pre>
+                        <p>
+                            Second parameter is optional scope. By default handlers are run in the scope of the element. To unbind events use the same method names with “un” prefix, i.e. <samp>element.unclick(f);</samp>
+                        </p>
+                        <h3 id="drag-n-drop">
+                            Drag ’n’ Drop
+                        </h3>
+                        <p>
+                            To make element “draggable” you need to call method <code>drag</code> on element.
+                        </p>
+                        <h4>Parameters</h4>
+                        <ol>
+                            <li>onmove <em>function</em> event handler for moving</li>
+                            <li>onstart <em>function</em> event handler for start</li>
+                            <li>onend <em>function</em> event handler for end of the drag</li>
+                        </ol>
+                        <h4>Usage</h4>
+                        <pre class="javascript code"><code><b>var</b> c<span class="s"> = </span>R.circle(<span class="d">100</span>, <span class="d">100</span>, <span class="d">50</span>).attr({
+    fill: <i>"hsb(<span class="d">.8</span>, <span class="d">1</span>, <span class="d">1</span>)"</i>,
+    stroke: <i>"none"</i>,
+    opacity: <span class="d">.5</span>
+});
+<b>var</b> start<span class="s"> = </span><b>function</b> () {
+    <span class="c">// storing original coordinates</span>
+    <b>this</b>.ox<span class="s"> = </span><b>this</b>.attr(<i>"cx"</i>);
+    <b>this</b>.oy<span class="s"> = </span><b>this</b>.attr(<i>"cy"</i>);
+    <b>this</b>.attr({opacity: <span class="d">1</span>});
+},
+move<span class="s"> = </span><b>function</b> (dx, dy) {
+    <span class="c">// move will be called <b>with</b> dx and dy</span>
+    <b>this</b>.attr({cx: <b>this</b>.ox<span class="s"> + </span>dx, cy: <b>this</b>.oy<span class="s"> + </span>dy});
+},
+up<span class="s"> = </span><b>function</b> () {
+    <span class="c">// restoring state</span>
+    <b>this</b>.attr({opacity: <span class="d">.5</span>});
+};
+c.drag(move, start, up);</code></pre>
+                        <p>
+                            To unbind drag use the <samp>undrag</samp> method.
+                        </p>
+                    </div>
+                    <div id="column-2">
+                        <h2>
+                            <a href="http://raphaeljs.com/index.html">Home</a>
+                        </h2>
+                        <h2>
+                            Contents
+                        </h2>
+                        <ul id="contents">
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#Raphael"><code>Raphael</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#circle"><code>circle</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#rect"><code>rect</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#ellipse"><code>ellipse</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#image"><code>image</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#set"><code>set</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#text"><code>text</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#path"><code>path</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#clear"><code>clear</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#node"><code>node</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#paper"><code>paper</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#remove"><code>remove</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#hide"><code>hide</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#show"><code>show</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#rotate"><code>rotate</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#translate"><code>translate</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#scale"><code>scale</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#attr"><code>attr</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#animate"><code>animate</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#stop"><code>stop</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#animateWith"><code>animateWith</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#animateAlong"><code>animateAlong</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#animateAlongBack"><code>animateAlongBack</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#getBBox"><code>getBBox</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#toFront"><code>toFront</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#toBack"><code>toBack</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#insertBefore"><code>insertBefore</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#insertAfter"><code>insertAfter</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#clone"><code>clone</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#raphael"><code>raphael</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#getTotalLength"><code>getTotalLength</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#getPointAtLength"><code>getPointAtLength</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#getSubpath"><code>getSubpath</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#setSize"><code>setSize</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#setWindow"><code>setWindow</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#getRGB"><code>getRGB</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#angle"><code>angle</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#rad"><code>rad</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#deg"><code>deg</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#snapTo"><code>snapTo</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#getColor"><code>getColor</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#getColor-reset"><code>getColor.reset</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#registerFont"><code>registerFont</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#getFont"><code>getFont</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#print"><code>print</code></a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#plugins-canvas">Adding your own methods to canvas</a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#plugins-elements">Adding your own methods to elements</a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#custom-attributes">Custom Attributes</a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#colour">Supported colour formats</a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#safari">safari</a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#ninja-mode">“Ninja Mode”</a>
+                            </li>
+                            <li>
+                                <a href="http://raphaeljs.com/reference.html#events">Events</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="footer">
+                        <h3 id="copyright">
+                            <a href="http://www.opensource.org/licenses/mit-license.php" title="MIT License" rel="license">Some Rights Reserved</a> by <a href="http://dmitry.baranovskiy.com/">Dmitry Baranovskiy</a>
+                        </h3>
+                        <h3 id="font">
+                            Logo by <a href="http://wasabicube.com/">Wasabicube</a>
+                        </h3>
+                    </div>
+        </div>
+        <script src="./Raphaël Reference_files/raphael.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./Raphaël Reference_files/syntax.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./Raphaël Reference_files/museo.js" type="text/javascript" charset="utf-8"></script>
+        <script src="./Raphaël Reference_files/site.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script><script src="./Raphaël Reference_files/ga.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-616618-3");
+        pageTracker._trackPageview();
+        </script>
+    
+
+</body></html>
