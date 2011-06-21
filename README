@@ -1,6 +1,8 @@
 This code is for the front end of WordSeer.
 
-The back end was me running the stanford parser and putting that data into an appropriate mysql db, it's not ready for public viewing yet, but email me if you want a dump of WordSeer's current DB, containing slave narratives data.
+The back end was me running the stanford parser and putting that data into an appropriate mysql db, it's not 
+ready for public viewing yet, but email me if you want a dump of WordSeer's current DB, containing 
+slave narratives data.
 
 The front end code contains the following:
 
@@ -8,7 +10,8 @@ lib/ 3rd party javascript libraries
 style/ css and fonts and things like that
 src/
    js/ where the code for all the visualizations, application state, and interactivity helpers lives.
-        Start with view.js, heatmap.js, or searchresults.js and look at the init() function --  essentially the main application loop for each page, which starts everything else.
+        Start with view.js, heatmap.js, or searchresults.js and look at the init() function 
+          --  essentially the main application loop for each page, which starts everything else.
          The main files are:
          heatmap.js - heat map AND word tree stuff, in service of the heatmap.php view
          searchresults.js - grammatical search results, result filtering, all the viz on that page, in service of index.php
