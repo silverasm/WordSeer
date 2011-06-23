@@ -1,0 +1,36 @@
+@author Aditi Muralidharan  (twitter.com/silverasm, aditi@cs.berkeley.edu)
+
+How to install (if you already have mysql up and running)
+
+  Unzip data.sql.zip -- it will give you 2 sql files (total ~800M) one with all
+  the non-user data (i.e. no usernames + passwords), and the other will 
+  just create an empty users table so the app doesn't break.
+
+  Look at the beginning of src/php/dbsetup.php: the default value for the
+  DB name, (and associated username and password) is "narratives", change
+  this to whatever you want.
+
+  Create a new DB with your chosen name, and import the data into it.
+
+  Create a new user with your chosen username and password, and make sure it's
+  able to (at least) read, write, insert and delete. Not the most secure thing 
+  in the world, I should have used 2 users, so backup frequently.
+
+  Make sure you're able to execute simple queries.
+
+  You know it's worked successfully when you load up WordSeer from localhost
+  and it displays a randomly selected sentence from the narratives.
+
+
+PLEASE  NOTE
+  In order to actually use WordSeer like on bebop.berkeley.edu/wordseer
+  you need to have placed the top level directory (i.e. the one containing
+  index.php) in a place where your server can serve it up, and has permission
+  to run php. In other words, you need to be able to get to it through the http
+  server and not through looking at the files via file://path/to/file
+  The reason is that 1. the php won't run if it doesn't go through a server
+  2. browser security restrictions prevent you from fetching json data
+
+  
+
+  
